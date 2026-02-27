@@ -1,0 +1,11 @@
+#title{font: caption;font-size: xx-large;font-family: fantasy;}
+#img{margin: auto}
+
+.spin{
+    animation:spin 3s infinite;
+}
+
+@keyframes spin{
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
